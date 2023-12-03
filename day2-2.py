@@ -1,3 +1,5 @@
+#sliding window
+
 with open("day2-2i","r") as f:
     res=0
     for line in f.readlines():
@@ -6,7 +8,7 @@ with open("day2-2i","r") as f:
         n=0
         for r in range(6,len(line)):
             c=line[r]
-             
+
             if  c==" ":
                 if line[l]==" ":
                     n=int(line[l+1:r])

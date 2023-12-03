@@ -1,3 +1,5 @@
+#sliding window
+
 with open("day2-1i","r") as f:
     rl,gl,bl=12,13,14
     res=0
